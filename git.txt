@@ -1,3 +1,9 @@
+
+ssh -T git@github.com
+git config --global user.name "name"
+git config --global user.email "email"
+git clone https://github.com/linpeafowl/study
+
 git add filename
 git commit -m "note"
 git push origin master
